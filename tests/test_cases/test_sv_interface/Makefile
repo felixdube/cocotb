@@ -3,7 +3,7 @@
 # SPDX-License-Identifier: BSD-3-Clause
 
 TOPLEVEL_LANG ?= verilog
-VERILOG_SOURCES = $(shell pwd)/top.sv
+VERILOG_SOURCES = $(shell pwd)/sv_if_include.sv $(shell pwd)/top.sv
 MODULE = test_sv_if
 TOPLEVEL = top
 
